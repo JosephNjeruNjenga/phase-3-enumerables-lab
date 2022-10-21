@@ -62,4 +62,3 @@ def average_heat_level(spicy_foods)
   # your code here
   spicy_foods.map {|food| food[:heat_level]}.sum / spicy_foods.length
 end
-binding.pry
